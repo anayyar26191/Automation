@@ -12,7 +12,7 @@ public class Drop1 {
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.testandquiz.com/selenium/testing.html");
-		driver.manage().window().maximize();
+		
 		WebElement web = driver.findElement(By.xpath("//select[@id='testingDropdown']"));
 		Select S=new Select(web);
 		S.selectByVisibleText("Database Testing");
