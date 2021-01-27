@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Practic1 {
+public class PractTest {
 @BeforeTest
 public void one() {
 	System.out.println("Hello Everyone ");
