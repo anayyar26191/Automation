@@ -23,8 +23,11 @@ public class Lesson1 {
 		WebElement userId=driver.findElement(By.name("txtUsername"));
 		WebElement password= driver.findElement(By.cssSelector("input#txtPassword"));
 		WebElement login= driver.findElement(By.cssSelector("input#btnLogin"));
-		act.sendKeys(userId, "admin").sendKeys(password,"admin123").click(login).build().perform();
-	
-;	}
+		act.sendKeys(userId, "admi").sendKeys(password,"adin123").click(login).build().perform();
+		WebElement invalidCred=driver.findElement(By.cssSelector("span#spanMessage"));
+		System.out.println(invalidCred.getText());
+			
+		}
+	}
 
-}
+
