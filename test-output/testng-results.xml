@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+  <suite name="Default suite" duration-ms="39" started-at="2021-01-28T02:30:19Z" finished-at="2021-01-28T02:30:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
-      <class name="com.tesNG.Practic1">
-        <test-method status="PASS" signature="two()[pri:0, instance:com.tesNG.Practic1@8bd1b6a]" name="two" is-config="true" duration-ms="9" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+    <test name="Default test" duration-ms="39" started-at="2021-01-28T02:30:19Z" finished-at="2021-01-28T02:30:19Z">
+      <class name="com.tesNG.Practice3">
+        <test-method status="PASS" signature="parkedatParking()[pri:0, instance:com.tesNG.Practice3@51565ec2]" name="parkedatParking" duration-ms="10" started-at="2021-01-28T02:30:19Z" finished-at="2021-01-28T02:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- two -->
-        <test-method status="PASS" signature="one()[pri:0, instance:com.tesNG.Practic1@8bd1b6a]" name="one" is-config="true" duration-ms="0" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+        </test-method> <!-- parkedatParking -->
+        <test-method status="PASS" signature="speedUP()[pri:0, instance:com.tesNG.Practice3@51565ec2]" name="speedUP" duration-ms="1" started-at="2021-01-28T02:30:19Z" depends-on-methods="com.tesNG.Practice3.parkedatParking" finished-at="2021-01-28T02:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="third()[pri:0, instance:com.tesNG.Practic1@8bd1b6a]" name="third" duration-ms="4" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+        </test-method> <!-- speedUP -->
+        <test-method status="PASS" signature="startCar()[pri:0, instance:com.tesNG.Practice3@51565ec2]" name="startCar" duration-ms="1" started-at="2021-01-28T02:30:19Z" depends-on-methods="com.tesNG.Practice3.speedUP" finished-at="2021-01-28T02:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- third -->
-        <test-method status="PASS" signature="five()[pri:0, instance:com.tesNG.Practic1@8bd1b6a]" name="five" is-config="true" duration-ms="1" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+        </test-method> <!-- startCar -->
+        <test-method status="PASS" signature="stopAtLights()[pri:0, instance:com.tesNG.Practice3@51565ec2]" name="stopAtLights" duration-ms="1" started-at="2021-01-28T02:30:19Z" depends-on-methods="com.tesNG.Practice3.startCar" finished-at="2021-01-28T02:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- five -->
-        <test-method status="PASS" signature="fourth()[pri:0, instance:com.tesNG.Practic1@8bd1b6a]" name="fourth" is-config="true" duration-ms="0" started-at="2021-01-27T02:57:20Z" finished-at="2021-01-27T02:57:20Z">
+        </test-method> <!-- stopAtLights -->
+        <test-method status="PASS" signature="opencarDoor()[pri:0, instance:com.tesNG.Practice3@51565ec2]" name="opencarDoor" duration-ms="1" started-at="2021-01-28T02:30:19Z" depends-on-methods="com.tesNG.Practice3.stopAtLights" finished-at="2021-01-28T02:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fourth -->
-      </class> <!-- com.tesNG.Practic1 -->
+        </test-method> <!-- opencarDoor -->
+      </class> <!-- com.tesNG.Practice3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
