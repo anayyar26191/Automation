@@ -2,7 +2,7 @@ package com.tesNG;
 
 import org.testng.annotations.Test;
 
-public class Practice3 {
+public class Sample3Test {
 	@Test(dependsOnMethods= {"stopAtLights"})
 	public void opencarDoor() {
 		System.out.println("Door open");

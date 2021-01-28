@@ -4,7 +4,7 @@ import org.testng.annotations.AfterTest;
 
 import org.testng.annotations.Test;
 
-public class Practice2 {
+public class Sample2Test {
 	//Execute Alphabetically and @Test method will always execute without annotation not execution
 	@Test(priority=3)
 	public void apple() {
