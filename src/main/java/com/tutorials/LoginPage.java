@@ -13,7 +13,7 @@ public class LoginPage {
 		driver.findElement(By.name("userHandle")).sendKeys("anj");
 		driver.findElement(By.id("password")).sendKeys("anj1");
 		driver.findElement(By.xpath("//button[@class='btn btn-login']")).click();
+		driver.findElement(By.xpath("//button[text()='Create Account']")).click();
 	}
 	}
-
 
