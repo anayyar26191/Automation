@@ -1,21 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63937" started-at="2021-01-31T02:21:56Z" finished-at="2021-01-31T02:23:00Z">
+  <suite name="Suite" duration-ms="147896" started-at="2021-01-31T02:45:14Z" finished-at="2021-01-31T02:47:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63937" started-at="2021-01-31T02:21:56Z" finished-at="2021-01-31T02:23:00Z">
+    <test name="Test" duration-ms="147896" started-at="2021-01-31T02:45:14Z" finished-at="2021-01-31T02:47:41Z">
+      <class name="com.tesNG.Sample6Test">
+        <test-method status="PASS" signature="wePageTile()[pri:0, instance:com.tesNG.Sample6Test@35851384]" name="wePageTile" duration-ms="24035" started-at="2021-01-31T08:15:14Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wePageTile -->
+      </class> <!-- com.tesNG.Sample6Test -->
+      <class name="com.tesNG.Sample5Test">
+        <test-method status="PASS" signature="wePageTile()[pri:0, instance:com.tesNG.Sample5Test@28f67ac7]" name="wePageTile" duration-ms="15963" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wePageTile -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:com.tesNG.Sample5Test@28f67ac7]" name="loginCRM" duration-ms="28481" started-at="2021-01-31T08:15:54Z" depends-on-methods="com.tesNG.Sample6Test.wePageTile" finished-at="2021-01-31T08:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+      </class> <!-- com.tesNG.Sample5Test -->
       <class name="com.tesNG.LoginTest">
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.tesNG.LoginTest@3834d63f]" name="loginPage" duration-ms="39938" started-at="2021-01-31T07:51:56Z" finished-at="2021-01-31T07:52:36Z">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.tesNG.LoginTest@d7b1517]" name="loginPage" duration-ms="35853" started-at="2021-01-31T08:16:22Z" finished-at="2021-01-31T08:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.tesNG.LoginTest@3834d63f]" name="loginPage" duration-ms="23979" started-at="2021-01-31T07:52:36Z" finished-at="2021-01-31T07:53:00Z">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.tesNG.LoginTest@d7b1517]" name="loginPage" duration-ms="43413" started-at="2021-01-31T08:16:58Z" finished-at="2021-01-31T08:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
       </class> <!-- com.tesNG.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.tesNG.Sample3Test">
+        <test-method status="PASS" signature="parkedatParking()[pri:0, instance:com.tesNG.Sample3Test@6adca536]" name="parkedatParking" duration-ms="1" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkedatParking -->
+        <test-method status="PASS" signature="speedUP()[pri:0, instance:com.tesNG.Sample3Test@6adca536]" name="speedUP" duration-ms="0" started-at="2021-01-31T08:15:38Z" depends-on-methods="com.tesNG.Sample3Test.parkedatParking" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedUP -->
+        <test-method status="PASS" signature="startCar()[pri:0, instance:com.tesNG.Sample3Test@6adca536]" name="startCar" duration-ms="3" started-at="2021-01-31T08:15:38Z" depends-on-methods="com.tesNG.Sample3Test.speedUP" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+        <test-method status="PASS" signature="stopAtLights()[pri:0, instance:com.tesNG.Sample3Test@6adca536]" name="stopAtLights" duration-ms="1" started-at="2021-01-31T08:15:38Z" depends-on-methods="com.tesNG.Sample3Test.startCar" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAtLights -->
+        <test-method status="PASS" signature="opencarDoor()[pri:0, instance:com.tesNG.Sample3Test@6adca536]" name="opencarDoor" duration-ms="1" started-at="2021-01-31T08:15:38Z" depends-on-methods="com.tesNG.Sample3Test.stopAtLights" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opencarDoor -->
+      </class> <!-- com.tesNG.Sample3Test -->
+      <class name="com.tesNG.Sample4Test">
+        <test-method status="PASS" signature="two()[pri:0, instance:com.tesNG.Sample4Test@1888ff2c]" name="two" is-config="true" duration-ms="11" started-at="2021-01-31T08:15:14Z" finished-at="2021-01-31T08:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="one()[pri:0, instance:com.tesNG.Sample4Test@1888ff2c]" name="one" is-config="true" duration-ms="2" started-at="2021-01-31T08:15:14Z" finished-at="2021-01-31T08:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="third()[pri:0, instance:com.tesNG.Sample4Test@1888ff2c]" name="third" duration-ms="1" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method status="PASS" signature="five()[pri:0, instance:com.tesNG.Sample4Test@1888ff2c]" name="five" is-config="true" duration-ms="1" started-at="2021-01-31T08:17:41Z" finished-at="2021-01-31T08:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- five -->
+        <test-method status="PASS" signature="fourth()[pri:0, instance:com.tesNG.Sample4Test@1888ff2c]" name="fourth" is-config="true" duration-ms="0" started-at="2021-01-31T08:17:42Z" finished-at="2021-01-31T08:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourth -->
+      </class> <!-- com.tesNG.Sample4Test -->
+      <class name="com.tesNG.Sample2Test">
+        <test-method status="PASS" signature="watermelon()[pri:1, instance:com.tesNG.Sample2Test@649d209a]" name="watermelon" duration-ms="1" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watermelon -->
+        <test-method status="PASS" signature="carrot()[pri:2, instance:com.tesNG.Sample2Test@649d209a]" name="carrot" duration-ms="0" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrot -->
+        <test-method status="PASS" signature="apple()[pri:3, instance:com.tesNG.Sample2Test@649d209a]" name="apple" duration-ms="1" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="orange()[pri:4, instance:com.tesNG.Sample2Test@649d209a]" name="orange" duration-ms="1" started-at="2021-01-31T08:15:38Z" finished-at="2021-01-31T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- com.tesNG.Sample2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
