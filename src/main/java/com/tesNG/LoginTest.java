@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class LoginTest {
-	@Test
+public class LoginTest  {
+	@Test(invocationCount=2)
 	public void loginPage() {
 	System.setProperty("webdriver.chrome.driver", "./drivers//chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
